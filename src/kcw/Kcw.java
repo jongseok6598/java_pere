@@ -18,6 +18,7 @@ public class Kcw {
             int num = sc.nextInt();
             if(num==1){
                 menus[c]="커피";
+                c++;
                 System.out.println("1번 아메리카노 4000");
                 System.out.println("2번 라떼 4200");
                 System.out.println("3번 콜드브루 4500");
@@ -54,6 +55,7 @@ public class Kcw {
             }
             else if(num==2){
                 menus[c]="에이드";
+                c++;
                 System.out.println("1번 레몬에이드 6000");
                 System.out.println("2번 딸기에이드 6200");
                 System.out.println("3번 오렌지에이드 6500");
@@ -90,6 +92,7 @@ public class Kcw {
             }
             else if(num==3){
                 menus[c]="케이크";
+                c++;
                 System.out.println("1번 당근케이크 7600");
                 System.out.println("2번 초콜릿케이크 7200");
                 System.out.println("3번 치즈케이크 7500");
@@ -126,6 +129,7 @@ public class Kcw {
             }
             else if(num==4){
                 menus[c]="빵";
+                c++;
                 System.out.println("1번 단팥빵 2800");
                 System.out.println("2번 모카번 3000");
                 System.out.println("3번 슈크림빵 2900");
